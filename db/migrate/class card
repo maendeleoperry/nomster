@@ -1,0 +1,16 @@
+class card
+   attr_accessor  :rank, :suit
+
+   def initialzation(rank, suit)
+     self.rank = rank
+     self.suit = suit
+   end  
+
+   def Output_card
+     puts "#{rank} of #{suit}"
+   end
+   
+   def self.random_card
+     card.new(rand(10), :spades)
+   end
+end       
