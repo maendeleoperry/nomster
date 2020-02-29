@@ -68,7 +68,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (12.3.1)
+    rake (13.0.1)
     rubinius-coverage (2.1)
     rubinius-debugger (2.6)
     rubinius-developer_tools (2.0.0)
